@@ -1,0 +1,311 @@
+extends partials/layout
+
+block variables
+    - var body_class = 'landing'
+    
+block page_content
+    
+    .container-fluid.bg-anchor
+        | &nbsp;
+        img.bg_image-1(src="assets/images/general/bg_laberinto.svg")
+        img.bg_image-2.rellax(data-rellax-speed="-1", src="assets/images/general/bg_p2p.svg")
+        img.bg_image-3(src="assets/images/general/bg_laberinto.svg")
+        img.bg_image-4(src="assets/images/general/bg_partners.svg")
+        
+    .navbar
+        
+        .container-fluid
+        
+            .row
+            
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-9
+                    img.logo(src="assets/images/general/header-navbar-logo.svg")
+                    
+                    .menu-mobile
+                        .menu-mobile-cont
+                            span
+                            span
+                            span
+                                
+                    ul
+                        li
+                            a(href="") Docs
+                        li
+                            a(href="") Community
+                        li
+                            a(href="") Blog
+    
+    .menu-content
+        .menu-popup
+            .menu-popup-cont
+                .menu-popup-cont2
+                    ul.clearfix
+                        li
+                            a(href="#") Docs
+                        li
+                            a(href="#") Community
+                        li
+                            a(href="#") Blog
+        .menu-inner
+            .menu-inner2
+                .menu
+                    .menu-mobile
+                        .menu-mobile-cont
+                            span
+                            span
+                            span
+                    .text MENU
+    
+    .section-1
+        
+        .container-fluid
+            
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-10.col-xl-9
+                    
+                    .centered-text-cont
+                        
+                        .centered-text-inner
+                            
+                            .centered-text
+                                
+                                h2
+                                    | Welcome to the <br class="desktop">
+                                    | distributed marketplace <br class="desktop">
+                                    | experiment.
+                                
+                                p Sprawl is an open protocol for creating distributed <br class="desktop">marketplaces for absolutely anything.
+                                
+                                .bottom-links
+                                    
+                                    a.link(href="#") Sprawl Network Alpha Live
+                                    
+                                    a.btn(href="#") Join Network
+                    
+    .section-2
+        
+        .container-fluid
+            
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-10.col-xl-9
+                    
+                    h3 Build your own <br class="desktop">distributed marketplace
+
+            .row
+                
+                .d-none.d-lg-block.col-lg-1 &nbsp;
+                    
+                .col-sm-12.col-lg-6.svg-animation
+                    
+                .col-sm-12.col-lg-5.col-xl-3
+                    
+                    ul.market-list
+
+                        li.rellax(data-rellax-speed="0.3")
+                            h4 UNSTOPPABLE
+                            p No central servers
+                            
+                        li.rellax(data-rellax-speed="0.6")
+                            h4 BLAZING FAST
+                            p No consensus bottlenecks
+                            
+                        li.rellax(data-rellax-speed="0.9")
+                            h4 FREE(DOM)
+                            p No gatekeepers
+                    
+    .section-3
+        
+        .container-fluid
+            
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-10.col-xl-9
+                    
+                    h3.rellax(data-rellax-speed="2") Create a peer-to-peer <br class="desktop">market for <span>Currencies</span>
+                    
+
+    .section-4
+        
+        p.textdance Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, your rules. 
+        
+    
+    .section-5
+        
+        .container-fluid
+            
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-5
+                    
+                    h4 Sprawl doesn’t decide on features for <br class="desktop">you, so you have full control over:
+                    
+                .col-sm-12.col-lg-5.col-xl-4
+
+                    ul.features-list
+
+                        li.clearfix
+                            span 01.
+                            div
+                                h4 Tradable assets
+                                p Digital <> Physical
+                            
+                        li.clearfix
+                            span 02.
+                            div
+                                h4 Settlement mechanisms
+                                p Digital <> Physical
+                            
+                        li.clearfix
+                            span 03.
+                            div
+                                h4 Access controls
+                                p Permissionless <> Permissioned
+                            
+    
+    .section-6
+        
+        .container-fluid
+            
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-5.top-content
+                    
+                    h3 Built on functional <br class="desktop">technologies from <br class="desktop">the future
+                    
+                    .d-none.d-lg-block
+                        
+                        a.btn.github(href="#") Check out the code 
+                        
+                        a.btn.gitter(href="#") Join the conversation
+                    
+                .col-sm-12.col-lg-5.col-xl-4
+                    
+                    .specs-box
+                    
+                        h5 Specifications
+                        
+                        ul
+                            li Implementation language | <a href="#">Golang</a>
+                            li Networking | <a href="#">Libp2p</a>
+                            li Peer Discovery | <a href="#">KademliaDHT</a>
+                            li Database | <a href="#">LevelDB</a>
+                
+                .d-block.d-lg-none.col-sm-12
+                    
+                    a.btn.github(href="#") Check out the code 
+                    
+                    a.btn.gitter(href="#") Join the conversation
+            
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-10.col-xl-8
+                    
+                    .code-screen
+                        
+                        div
+                            | env SPRAWL_DATABASE_PATH=/var/lib/sprawl/data SPRAWL_P2P_ENABLENATPORTMAP=true SPRAWL_P2P_DEBUG=true ./sprawl
+                            <br><br>
+                            | {“level”:”info”,”ts”:1570439807.9872599,”caller”:”p2p/p2p.go:246”,”msg”:”Connecting to bootstrap peers”}
+                            <br><br>
+                            | {“level”:”info”,”ts”:1570439809.5624237,”caller”:”p2p/p2p.go:151”,”msg”:”Subscribing to channel testChannel with  options: &#60;nil&#62;”}
+                            <br><br>
+                            | {“level”:”info”,”ts”:1570439809.990148,”caller”:”p2p/p2p.go:87”,”msg”:”Found a new peer: 12D3KooWSNq7ujFYrMRJBKU51rJ9JvWr8tbzJ4e9cWTAC1TiXsfP\n”}
+                            <br><br>
+                            | {“level”:”info”,”ts”:1570439840.470405,”caller”:”p2p/p2p.go:177”,”msg”:”Received order from peer 12D3KooWSNq7ujFYrMRJBKU51rJ9JvWr8tbzJ4e9cWTAC1TiXsfP: \n\u000btestChannel\u001a!\n\u000cHello world! \u001a\u0003ETH\”\u0003BTC(\ufffd\ufffd\u00035\ufffd\ufffdL>”}
+    
+    
+    .section-7.d-none
+        
+        .container-fluid
+            
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-10.col-xl-8
+                    
+                    h3 Our partners
+                    
+                    p Projects that are using Sprawl to build things
+                    
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-10.col-xl-8
+                    
+                    ul.projects
+                        li
+                        li
+                        li
+                        li
+                        li
+                        li
+                        li
+                        li
+    
+    .section-8
+        
+        .container-fluid
+            
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-10.col-xl-8
+                    
+                    .centered-text-cont
+                        
+                        .centered-text-inner
+                            
+                            h3 Join the alpha network
+                        
+                            p Connecting to Sprawl is simple.
+
+                            ul
+                                li <span>1.</span> Download the node software from github.
+                                li <span>2.</span> Run the software. It will magically connect with peers.
+                                li <span>3.</span> Join or create a channel and start sending orders.
+            
+                            a.btn(href="#") Try it
+                        
+                        p.footer
+                            | Sprawl is an open source project created by
+                            img(src="assets/images/general/equilibrium-logo.svg")
+    
+                    
+                    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,18 @@
+$body_bg: red;
+
+@import
+  'foundation/config',
+
+  'vendor/bootstrap',
+
+  'foundation/base',
+
+  'components/header',
+
+  'structures/landing',
+
+  'shame/shame'
+;
+//Shame.css
+@import "shame/test.css";
+

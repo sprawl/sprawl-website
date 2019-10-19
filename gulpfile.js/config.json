@@ -1,0 +1,39 @@
+{
+  "root": {
+    "src": "./src",
+    "dist": "./dist"
+  },
+  "pug": {
+    "src": "pug/**/*.pug",
+    "dist": "./",
+    "exclude": "pug/partials/**/*.pug"
+  },
+  "css": {
+    "src": "scss/**/*.scss",
+    "dist": "assets/css"
+  },
+  "js": {
+      "src": "js/**/*.js",
+      "dist": "assets/js"
+  },
+  "js_vendor": {
+      "src": [
+        "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/rellax/rellax.min.js"
+
+      ],
+      "dist": "assets/js"
+  },
+  "img": {
+    "src": "images/**/*.+(jpg|jpeg|gif|png|svg)",
+    "dist": "assets/images"
+  },
+  "fonts": {
+      "src": "fonts/**/*.+(otf|woff|woff2|svg|eot)",
+      "dist": "assets/fonts"
+  },
+  "favicon": {
+    "src": "favicon/**/*.+(png|svg|ico|webmanifest)",
+    "dist": "assets/favicon"
+  }
+}

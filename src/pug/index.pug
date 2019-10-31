@@ -6,13 +6,12 @@ block variables
 block page_content
     
     .container-fluid.bg-anchor
-        | &nbsp;
         img.bg_image-1(src="assets/images/general/bg_laberinto.svg")
-        img.bg_image-2.rellax(data-rellax-speed="-1", src="assets/images/general/bg_p2p.svg")
+        img.bg_image-2.rellax(data-rellax-speed="6.2", src="assets/images/general/bg_p2p.svg")
         img.bg_image-3(src="assets/images/general/bg_laberinto.svg")
         img.bg_image-4(src="assets/images/general/bg_partners.svg")
         
-    .navbar
+    .navbar.wow.fadeInDown
         
         .container-fluid
         
@@ -48,7 +47,8 @@ block page_content
                             a(href="#") Community
                         li
                             a(href="#") Blog
-        .menu-inner
+                            
+        .menu-inner.wow.fadeInLeft
             .menu-inner2
                 .menu
                     .menu-mobile
@@ -74,14 +74,14 @@ block page_content
                             
                             .centered-text
                                 
-                                h2
+                                h2.wow.fadeInUp
                                     | Welcome to the <br class="desktop">
                                     | distributed marketplace <br class="desktop">
                                     | experiment.
                                 
-                                p Sprawl is an open protocol for creating distributed <br class="desktop">marketplaces for absolutely anything.
+                                p.wow.fadeInUp Sprawl is an open protocol for creating distributed <br class="desktop">marketplaces for absolutely anything.
                                 
-                                .bottom-links
+                                .bottom-links.wow.fadeInUp
                                     
                                     a.link(href="#") Sprawl Network Alpha Live
                                     
@@ -103,7 +103,9 @@ block page_content
                 
                 .d-none.d-lg-block.col-lg-1 &nbsp;
                     
-                .col-sm-12.col-lg-6.svg-animation
+                .col-sm-12.col-lg-6.svg-animation#animacion
+                    
+                    include svg/red-animada
                     
                 .col-sm-12.col-lg-5.col-xl-3
                     
@@ -129,12 +131,12 @@ block page_content
                 
                 .d-none.d-lg-block.col-lg-2 &nbsp;
                     
-                .col-sm-12.col-lg-10.col-xl-9
+                .col-sm-12.col-lg-10.col-xl-9#sentence-col
                     
-                    h3.rellax(data-rellax-speed="2") Create a peer-to-peer <br class="desktop">market for <span>Currencies</span>
+                    h3.rellax(data-rellax-speed="1.5") Create a peer-to-peer <br class="desktop">market for <br class="only-mobile"><span id="typewriterEl"></span>
                     
 
-    .section-4
+    .section-4.d-none
         
         p.textdance Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, <span>your rules.</span> Your market, your rules. 
         
@@ -143,6 +145,17 @@ block page_content
         
         .container-fluid
             
+            .row
+                
+                .d-none.d-lg-block.col-lg-2 &nbsp;
+                    
+                .col-sm-12.col-lg-9#yourMarketCol
+                    
+                    h3 
+                        i#yourMarket Your market,
+                        | &nbsp;
+                        span#yourRules your rules.
+                    
             .row
                 
                 .d-none.d-lg-block.col-lg-2 &nbsp;
@@ -186,7 +199,7 @@ block page_content
                     
                     h3 Built on functional <br class="desktop">technologies from <br class="desktop">the future
                     
-                    .d-none.d-lg-block
+                    .d-none.d-lg-block.rellax(data-rellax-speed="0.4")
                         
                         a.btn.github(href="#") Check out the code 
                         
@@ -204,7 +217,7 @@ block page_content
                             li Peer Discovery | <a href="#">KademliaDHT</a>
                             li Database | <a href="#">LevelDB</a>
                 
-                .d-block.d-lg-none.col-sm-12
+                .d-block.d-lg-none.col-sm-12.rellax(data-rellax-speed="0.4")
                     
                     a.btn.github(href="#") Check out the code 
                     
@@ -283,7 +296,7 @@ block page_content
                                 li <span>2.</span> Run the software. It will magically connect with peers.
                                 li <span>3.</span> Join or create a channel and start sending orders.
             
-                            a.btn(href="#") Try it
+                            a.btn.rellax(data-rellax-speed="0.4", href="#") Try it
                         
                         p.footer
                             | Sprawl is an open source project created by

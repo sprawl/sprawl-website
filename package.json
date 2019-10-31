@@ -50,7 +50,11 @@
   "dependencies": {
     "bootstrap": "^4.2.1",
     "dotenv": "^6.2.0",
+    "in-view": "^0.6.1",
     "jquery": "^3.3.1",
-    "rellax": "^1.10.0"
+    "rellax": "^1.10.0",
+    "scrollmagic": "^2.0.7",
+    "typewriter-effect": "^2.12.1",
+    "wowjs": "^1.1.3"
   }
 }

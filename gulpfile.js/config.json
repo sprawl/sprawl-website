@@ -13,27 +13,27 @@
     "dist": "assets/css"
   },
   "js": {
-      "src": "js/**/*.js",
-      "dist": "assets/js"
+    "src": "js/**/*.js",
+    "dist": "assets/js"
   },
   "js_vendor": {
-      "src": [
-        "node_modules/jquery/dist/jquery.min.js",
-        "node_modules/rellax/rellax.min.js",
-        "node_modules/wowjs/dist/wow.min.js",
-        "node_modules/in-view/dist/in-view.min.js",
-        "node_modules/typewriter-effect/dist/core.js",
-        "node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"
-      ],
-      "dist": "assets/js"
+    "src": [
+      "node_modules/jquery/dist/jquery.min.js",
+      "node_modules/rellax/rellax.min.js",
+      "node_modules/wowjs/dist/wow.min.js",
+      "node_modules/in-view/dist/in-view.min.js",
+      "node_modules/typewriter-effect/dist/core.js",
+      "node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"
+    ],
+    "dist": "assets/js"
   },
   "img": {
     "src": "images/**/*.+(jpg|jpeg|gif|png|svg)",
     "dist": "assets/images"
   },
   "fonts": {
-      "src": "fonts/**/*.+(otf|woff|woff2|svg|eot)",
-      "dist": "assets/fonts"
+    "src": "fonts/**/*.+(otf|woff|woff2|svg|eot)",
+    "dist": "assets/fonts"
   },
   "favicon": {
     "src": "favicon/**/*.+(png|svg|ico|webmanifest)",
